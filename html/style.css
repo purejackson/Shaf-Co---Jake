@@ -1,22 +1,47 @@
 body {
   margin: 0;
   padding:0;
+  font-family: "Gill Sans", "Gill Sans MT";
+}
+
+h1 {
+text-align: center;
+margin: 10px;
 }
 
 .navlist {
   list-style-type: none;
 }
 
-li {
+.navlist li {
   display: inline-block;
-  text-decoration: none;
 }
 
 .navbar {
   padding: 5px;
-  background-color: #81e67e;
+  background-color: #29e4b2;
 }
 
-li a {
+.navlist li a {
   text-decoration: none;
+  padding: 10px;
+  color: #000000;
+  background-color: #1fc8d2;
+  box-shadow: 0.5px 0.5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.navlist li a:hover {
+  color: white;
+}
+
+.quote {
+  text-align: center;
+}
+
+.quote h2 {
+  font-size: 55px;
+}
+
+.quote p {
+  font-size: 20px;
 }
