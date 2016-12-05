@@ -105,16 +105,27 @@ p {
 }
 
 .left {
-  width: 200px;
-  height: 200px;
-  background-color: black;
+  border-radius: 3px;
+  text-align: center;
+  width: 35%;
+  height: auto;
+  background-color: #1fc8d2;
+  margin-left: 10%;
+  margin-top: 1%;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  margin-bottom: 3%;
   float: left;
-  margin-right: 200px;
 }
 
 .right {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  border-radius: 3px;
+  text-align: center;
+  width: 35%;
+  height: auto;
+  background-color: #1fc8d2;
+  margin-left: 10%;
+  margin-top: 1%;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  margin-bottom: 3%;
   float: left;
 }
