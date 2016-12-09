@@ -148,21 +148,43 @@ p {
   margin-bottom: 3%;
 
 }
+
 .main:after {
    content: " ";
    display: block;
    height: 0;
    clear: both;
 }
-.float-50{
+
+.float-50 {
   width: 50%;
   float:left;
   display: inline;
 }
+
+.float-50 p {
+   text-align: left;
+}
+
 textarea {
   margin: 10px 0;
 }
 
 ::-webkit-input-placeholder {
   color: #1fc8d2;
+}
+
+.email {
+  margin-right: 200px;
+}
+
+.tick {
+  
+  margin-top: 10px;
+}
+
+.submit {
+  margin-right: 450px;
+  margin-top: 5px;
+
 }
