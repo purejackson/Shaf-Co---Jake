@@ -138,15 +138,31 @@ p {
 }
 
 .main {
+  margin: auto;
   border-radius: 3px;
   text-align: center;
-  width: 60%;
+  max-width: 1200px;
   height: 40%;
   background-color: #1fc8d2;
   box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
   margin-bottom: 3%;
-}
 
+}
+.main:after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
+.float-50{
+  width: 50%;
+  float:left;
+  display: inline;
+}
 textarea {
   margin: 10px 0;
+}
+
+::-webkit-input-placeholder {
+  color: #1fc8d2;
 }
