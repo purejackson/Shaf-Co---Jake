@@ -175,16 +175,22 @@ textarea {
 }
 
 .email {
-  margin-right: 200px;
+  margin-right: 240px;
 }
 
 .tick {
-  
   margin-top: 10px;
 }
 
-.submit {
-  margin-right: 450px;
-  margin-top: 5px;
+.btn {
+  margin-right: 470px;
+  margin-top: 10px;
+}
 
+.tac {
+  margin-right: 270px;
+}
+
+.tac:hover {
+  color: #353d3e;
 }
