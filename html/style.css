@@ -146,6 +146,7 @@ p {
   background-color: #1fc8d2;
   box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
   margin-bottom: 3%;
+  margin-top: 15px;
 
 }
 
@@ -193,4 +194,28 @@ textarea {
 
 .tac:hover {
   color: #353d3e;
+}
+
+.info {
+  max-width: 500px;
+  height: auto;
+  margin-left: 140px;
+  margin-right: auto;
+  border-radius: 3px;
+  background-color: #1fc8d2;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  margin-bottom: 3%;
+  padding: 5px;
+}
+
+.portfolio {
+  margin-top: 15px;
+  max-width: 1300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  background-color: #1fc8d2;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px;
 }
