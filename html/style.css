@@ -175,16 +175,18 @@ textarea {
 }
 
 .email {
-  margin-right: 240px;
+  margin-right: 200px;
 }
 
 .tick {
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 .btn {
   margin-right: 470px;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .tac {
@@ -198,7 +200,7 @@ textarea {
 .info {
   max-width: 500px;
   height: auto;
-  margin-left: 140px;
+  margin-left: 330px;
   margin-right: auto;
   border-radius: 3px;
   background-color: #1fc8d2;
