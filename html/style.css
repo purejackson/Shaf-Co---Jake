@@ -241,11 +241,13 @@ textarea {
 }
 
 .face-img{
+
 }
 
 .col{
-  width: 33.33%;
+  width: auto;
   float: left;
+  margin-right: 11%;
 }
 
 .faceDescription {
