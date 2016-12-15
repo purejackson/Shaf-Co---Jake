@@ -228,18 +228,49 @@ textarea {
 }
 
 .row:after {
-   content: " ";
+   content: "";
    display: block;
    height: 0;
    clear: both;
 }
 
 .face {
-    float: left;
-    display: inline;
-    margin-left: auto;
     margin-right: auto;
-    margin-left: 11.5%;
+    margin-left: auto;
+    position: relative;
+}
+
+.face-img{
+}
+
+.col{
+  width: 33.33%;
+  float: left;
+}
+
+.faceDescription {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 80px;
+  right: 75px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility opacity 0.2s;
+  text-align: center;
+}
+
+.faceDescription span {
+  margin-top: 50px;
+  margin-bottom: auto;
+}
+
+.face:hover .faceDescription {
+  visibility: visible;
+  opacity: 1;
 }
 
 .face img{
